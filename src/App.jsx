@@ -1,5 +1,15 @@
 import { useState } from 'react'
-import { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita } from "./pages";
+import {
+  Home,
+  Sms,
+  Yell,
+  Pbb,
+  ApgFest,
+  Mading,
+  Gita,
+  Pionering,
+  Msc,
+} from "./pages";
 import "./App.css";
 import { Routes, Route } from "react-router";
 
@@ -15,6 +25,8 @@ function App() {
       <Route path="/apgfest" element={<ApgFest />} />
       <Route path="/mading" element={<Mading />} />
       <Route path="/gita-galang" element={<Gita />} />
+      <Route path="/pionering" element={<Pionering />} />
+      <Route path="/msc" element={<Msc />} />
     </Routes>
   );
 }
