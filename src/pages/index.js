@@ -8,4 +8,5 @@ import Gita from "./gita";
 import Pionering from "./pionering";
 import Msc from "./msc";
 import FilterasiAir from "./filterasi-air";
-export { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita, Pionering, Msc, FilterasiAir };
+import Sac from "./sac";
+export { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita, Pionering, Msc, FilterasiAir, Sac };

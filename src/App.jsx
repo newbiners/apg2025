@@ -10,6 +10,7 @@ import {
   Pionering,
   Msc,
   FilterasiAir,
+  Sac,
 } from "./pages";
 import "./App.css";
 import { Routes, Route } from "react-router";
@@ -29,6 +30,7 @@ function App() {
       <Route path="/pionering" element={<Pionering />} />
       <Route path="/msc" element={<Msc />} />
       <Route path="/filterasi-air" element={<FilterasiAir />} />
+      <Route path="/sac" element={<Sac />} />
     </Routes>
   );
 }
