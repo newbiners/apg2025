@@ -7,4 +7,5 @@ import Mading from "./mading";
 import Gita from "./gita";
 import Pionering from "./pionering";
 import Msc from "./msc";
-export { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita, Pionering, Msc };
+import FilterasiAir from "./filterasi-air";
+export { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita, Pionering, Msc, FilterasiAir };
