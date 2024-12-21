@@ -5,7 +5,7 @@ import TabSmsPi from "./tab_smspi";
 const Yell = () => {
   return (
     <PagesContainer>
-      <div className="mt-40">
+      <div className="mt-14 sm:mt-40">
         <Title title="Juara Yell (Yell Competition)" />
         <Tabs aria-label="Default tabs" variant="default">
           <Tabs.Item active title="Putra">

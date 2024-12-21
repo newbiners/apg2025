@@ -5,7 +5,7 @@ import TabSmsPi from "./tab_smspi";
 const Msc = () => {
   return (
     <PagesContainer>
-      <div className="mt-40">
+      <div className="mt-14 sm:mt-40">
         <Title title="Juara MSC (Master Scout Chef)" />
         <Tabs aria-label="Default tabs" variant="default">
           <Tabs.Item active title="Putra">

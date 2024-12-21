@@ -1,6 +1,6 @@
 const Table = ({ data }) => {
   return (
-    <table>
+    <table className="">
       <tr>
         <th>No .</th>
         <th>Name Regu</th>

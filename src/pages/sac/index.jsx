@@ -5,7 +5,7 @@ import TabSmsPi from "./tab_smspi";
 const Sac = () => {
   return (
     <PagesContainer>
-      <div className="mt-40">
+      <div className="mt-14 sm:mt-40">
         <Title title="Juara SAC (Smart Academic Challange)" />
         <Tabs aria-label="Default tabs" variant="default">
           <Tabs.Item active title="Putra">

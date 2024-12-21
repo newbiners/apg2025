@@ -38,17 +38,16 @@ const Home = () => {
   return (
     <PagesContainer>
       <div>
-        <div className="flex flex-col items-center justify-center h-screen">
-          <img src={APG} alt="logo" className="w-80" />
-          <h1>
-            <span className="font-bold">APG</span> <span>2025</span>
-          </h1>
+        <div className="flex flex-col items-center justify-center h-3/4 mt-8 sm:mt-0 sm:h-screen">
+          <img src={APG} alt="logo" className="w-44 sm:w-80" />
         </div>
 
-        <div className="flex items-center justify-center gap-36">
+        <div className="flex items-center flex-col sm:flex-row justify-center gap-9 sm:gap-36">
           <div>
-            <h1 className="text-4xl font-bold">Dasa Darma Pramuka</h1>
-            <ol>
+            <h1 className="text-2xl mt-14 sm:mt-0 sm:text-4xl sm:mb-4 font-bold sm:text-start text-center">
+              Dasa Darma Pramuka
+            </h1>
+            <ol className="text-sm sm:text-start text-center sm:text-xl">
               <li>Taqwa kepada Tuhan Yang Maha Esa</li>
               <li>Cinta alam dan kasih sayang sesama manusia</li>
               <li>Patriot yang sopan dan kesatria</li>
@@ -61,12 +60,29 @@ const Home = () => {
               <li>Suci dalam pikiran, perkataan dan perbuatan</li>
             </ol>
           </div>
-          <img src={img_1} alt="img_1" className="w-80" />
+          <img src={img_1} alt="img_1" className="w-36 sm:w-80" />
         </div>
 
-        <div className="flex items-center justify-center gap-36 mt-28">
-          <img src={img_2} alt="img_2" className="w-80" />
-          <div>
+        <div className="flex sm:flex-row flex-col items-center justify-center gap-9 sm:gap-36 mt-14 sm:mt-28">
+          <div className="block sm:hidden">
+            <h1 className=" font-bold text-center text-2xl">Tri Satya</h1>
+            <ol className="text-sm text-center w-64">
+              <li>Demi kehormatanku, aku berjanji akan bersungguh-sungguh:</li>
+              <ol type="a">
+                <li>
+                  Menjalankan kewajibanku terhadap Tuhan, Negara Kesatuan
+                  Republik Indonesia, dan mengamalkan Pancasila
+                </li>
+                <li>
+                  Menolong sesama hidup dan mempersiapkan diri membangun
+                  masyarakat
+                </li>
+                <li>Menepati Dasa Darma</li>
+              </ol>
+            </ol>
+          </div>
+          <img src={img_2} alt="img_2" className="w-36 sm:w-80" />
+          <div className="hidden sm:block">
             <h1 className="text-4xl font-bold">Tri Satya</h1>
             <ol>
               <li>Demi kehormatanku, aku berjanji akan bersungguh-sungguh:</li>
@@ -85,13 +101,13 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-36">
-          <h1 className="text-4xl font-bold text-center text-[#008080]">
+        <div className="mt-20 sm:mt-36">
+          <h1 className="text-2xl sm:text-4xl font-bold text-center text-[#008080]">
             LET's GO APG 2025
           </h1>
         </div>
         {difference !== null && (
-          <div className="flex items-center justify-center mt-16">
+          <div className="flex items-center justify-center mt-10 sm:mt-16">
             <CountdownCircleTimer
               isPlaying
               duration={difference} // 30 hari dalam detik
