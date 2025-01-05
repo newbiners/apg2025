@@ -11,6 +11,9 @@ import {
   Msc,
   FilterasiAir,
   Sac,
+  Regu,
+  ReguPi,
+  Pangkalan,
 } from "./pages";
 import "./App.css";
 import { Routes, Route } from "react-router";
@@ -31,6 +34,9 @@ function App() {
       <Route path="/msc" element={<Msc />} />
       <Route path="/filterasi-air" element={<FilterasiAir />} />
       <Route path="/sac" element={<Sac />} />
+      <Route path="/regu" element={<Regu />} />
+      <Route path="/regu-putri" element={<ReguPi />} />
+      <Route path="/pangkalan" element={<Pangkalan />} />
     </Routes>
   );
 }

@@ -9,4 +9,7 @@ import Pionering from "./pionering";
 import Msc from "./msc";
 import FilterasiAir from "./filterasi-air";
 import Sac from "./sac";
-export { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita, Pionering, Msc, FilterasiAir, Sac };
+import Regu from "./regu";
+import ReguPi from "./reguPi";
+import Pangkalan from "./pangkalan";
+export { Home, Sms, Yell, Pbb, ApgFest, Mading, Gita, Pionering, Msc, FilterasiAir, Sac, Regu, ReguPi, Pangkalan };

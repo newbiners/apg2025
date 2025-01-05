@@ -2,5 +2,9 @@ import PagesContainer from "./containers/pagesContainer";
 import UrgeWithPleasureComponent from "./UrgeWithPleasureComponent";
 import Table from "./table";
 import Title from "./title";
-
-export { PagesContainer, UrgeWithPleasureComponent, Table, Title }
+import TableRegu from "./tableRegu";
+import TableDetailRegu from "./tableDetailRegu";
+import Pangkalan from "../pages/pangkalan";
+import TablePangkalan from "./tablePangkalan";
+import TablePangkalanDetail from "./tablePangkalanDetail";
+export { PagesContainer, UrgeWithPleasureComponent, Table, Title, TableRegu, TableDetailRegu, Pangkalan, TablePangkalan, TablePangkalanDetail };

@@ -57,7 +57,16 @@ const Navbar = () => {
               color: menuSet === "regu" ? "white" : "black",
             }}
             onClick={() => handleMenu("/regu", "regu")}>
-            REGU
+            REGU PUTRA
+          </li>
+          <li
+            className="cursor-pointer px-5 sm:px-2 py-1 sm:py-3 hover:bg-[#067b7b] bg-slate-100 hover:text-white  sm:min-w-52 flex items-center justify-center rounded-full"
+            style={{
+              backgroundColor: menuSet === "regu-putri" ? "#067b7b" : "",
+              color: menuSet === "regu-putri" ? "white" : "black",
+            }}
+            onClick={() => handleMenu("/regu-putri", "regu-putri")}>
+            REGU PUTRI
           </li>
           <li
             className="cursor-pointer px-5 sm:px-2 py-1 sm:py-3 hover:bg-[#067b7b] bg-slate-100 hover:text-white  sm:min-w-52 flex items-center justify-center rounded-full"
