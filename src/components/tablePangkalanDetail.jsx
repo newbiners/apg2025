@@ -5,6 +5,7 @@ const TablePangkalanDetail = ({ data }) => {
         <th>No .</th>
         <th>Name Lomba</th>
         <th>Nama Pangkalan</th>
+        <th>poin</th>
         <th>Nilai</th>
       </tr>
       {data.map((item, index) => {
@@ -13,6 +14,7 @@ const TablePangkalanDetail = ({ data }) => {
             <td>{index + 1}</td>
             <td>{item.name.name}</td>
             <td>{item.header.name}</td>
+            <td>{item.poin}</td>
             <td>{item.nilai}</td>
           </tr>
         );

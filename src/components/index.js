@@ -7,4 +7,5 @@ import TableDetailRegu from "./tableDetailRegu";
 import Pangkalan from "../pages/pangkalan";
 import TablePangkalan from "./tablePangkalan";
 import TablePangkalanDetail from "./tablePangkalanDetail";
-export { PagesContainer, UrgeWithPleasureComponent, Table, Title, TableRegu, TableDetailRegu, Pangkalan, TablePangkalan, TablePangkalanDetail };
+import TableLomPangkalan from "./tableLomPangkalan";
+export { PagesContainer, UrgeWithPleasureComponent, Table, Title, TableRegu, TableDetailRegu, Pangkalan, TablePangkalan, TablePangkalanDetail, TableLomPangkalan };

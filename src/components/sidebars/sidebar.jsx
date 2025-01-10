@@ -9,7 +9,7 @@ const Sidebars = () => {
       <div className="bg-[#008080] p-1 text-white">
         Create By
         <a
-          href="https://gufrondev.my.id/"
+          // href="https://gufrondev.my.id/"
           target="_blank"
           className="pl-1 text-yellow-200 underline font-bold">
           @GufronDev

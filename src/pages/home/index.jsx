@@ -17,13 +17,23 @@ const Home = () => {
     return `${days}d ${hours}h ${minutes}m ${remainingSeconds}s`;
   };
 
-  const calculateDaysUntil = () => {
-    const today = new Date(); // Tanggal hari ini
-    const targetDate = new Date(today.getFullYear(), today.getMonth(), 30); // Tanggal 30 bulan ini
+  // const calculateDaysUntil = () => {
+  //   const today = new Date(); // Tanggal hari ini
+  //   const targetDate = new Date(today.getFullYear(), today.getMonth(), 30); // Tanggal 30 bulan ini
 
-    if (today.getDate() > 30) {
-      targetDate.setMonth(targetDate.getMonth() + 1); // Gunakan tanggal 30 bulan berikutnya
-    }
+  //   if (today.getDate() > 30) {
+  //     targetDate.setMonth(targetDate.getMonth() + 1); // Gunakan tanggal 30 bulan berikutnya
+  //   }
+
+  //   const timeDifference = targetDate.getTime() - today.getTime(); // Selisih waktu dalam milidetik
+  //   const totalSeconds = Math.ceil(timeDifference / 1000); // Konversi ke detik
+
+  //   setDifference(totalSeconds);
+  // };
+
+  const calculateDaysUntil = () => {
+    const today = new Date(); // Tanggal dan waktu saat ini
+    const targetDate = new Date(2025, 0, 11); // 11 Januari 2025, pukul 08:00 pagi
 
     const timeDifference = targetDate.getTime() - today.getTime(); // Selisih waktu dalam milidetik
     const totalSeconds = Math.ceil(timeDifference / 1000); // Konversi ke detik

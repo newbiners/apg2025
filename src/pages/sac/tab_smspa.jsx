@@ -1,4 +1,4 @@
-import { Table } from "../../components";
+import { Table, TableLomPangkalan } from "../../components";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { host } from "../../api";
@@ -11,7 +11,7 @@ const TabSmsPa = () => {
   const data = async () => {
     setLoading(true);
     const response = await axios.post(host + "/lomba/user", {
-      gender: "PA",
+      // gender: "PA",
       name: "SAC (Smart Academic Challange)",
     });
     setPangkalan(response.data);
@@ -20,7 +20,7 @@ const TabSmsPa = () => {
   useEffect(() => {
     data();
   }, []);
-  return <Table data={pangkalan} />;
+  return <TableLomPangkalan data={pangkalan} />;
 };
 
 export default TabSmsPa;

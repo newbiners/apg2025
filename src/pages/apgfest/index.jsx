@@ -7,14 +7,14 @@ const ApgFest = () => {
     <PagesContainer>
       <div className="mt-14 sm:mt-40">
         <Title title="APG25 Fest" />
-        <Tabs aria-label="Default tabs" variant="default">
-          <Tabs.Item active title="Putra">
-            <TabSmsPa />
-          </Tabs.Item>
+        {/* <Tabs aria-label="Default tabs" variant="default">
+          <Tabs.Item active title="Putra"> */}
+        <TabSmsPa />
+        {/* </Tabs.Item>
           <Tabs.Item title="Putri">
             <TabSmsPi />
           </Tabs.Item>
-        </Tabs>
+        </Tabs> */}
       </div>
     </PagesContainer>
   );

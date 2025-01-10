@@ -1,4 +1,4 @@
-import { Table } from "../../components";
+import { Table, TableLomPangkalan } from "../../components";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { host } from "../../api";
@@ -19,7 +19,7 @@ const TabSmsPa = () => {
   useEffect(() => {
     data();
   }, []);
-  return <Table data={pangkalan} />;
+  return <TableLomPangkalan data={pangkalan} />;
 };
 
 export default TabSmsPa;
